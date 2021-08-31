@@ -1,0 +1,4 @@
+dp001: ADFO - 0 direktur in the company | expected >= 2
+dp001: APII - 1 direktur in the company | expected >= 2
+dp001: ESTI - 1 direktur in the company | expected >= 2
+dp001: INSA - 0 direktur in the company | expected >= 2

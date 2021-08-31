@@ -1,0 +1,11 @@
+sp002: michella ristiadewi - 1 jabatan found, one of them is komisaris | expected no overlap with sekretaris perusahaan
+sp002: ervina - 1 jabatan found, one of them is komite audit | expected no overlap with sekretaris perusahaan
+sp002: marhaendra - 1 jabatan found, one of them is komisaris | expected no overlap with sekretaris perusahaan
+sp002: helmy yusman santoso - 1 jabatan found, one of them is komisaris | expected no overlap with sekretaris perusahaan
+sp002: maya tirani - 1 jabatan found, one of them is komite audit | expected no overlap with sekretaris perusahaan
+sp002: akbar - 1 jabatan found, one of them is komite audit | expected no overlap with sekretaris perusahaan
+sp002: dedet yandrinal - 2 jabatan found, one of them is komisaris | expected no overlap with sekretaris perusahaan
+sp002: tsun tien wen lie - 1 jabatan found, one of them is komite audit | expected no overlap with sekretaris perusahaan
+sp002: iwan setiawan - 1 jabatan found, one of them is komite audit | expected no overlap with sekretaris perusahaan
+sp002: erwin agung - 1 jabatan found, one of them is komisaris | expected no overlap with sekretaris perusahaan
+sp002: erick tonny tjandra - 1 jabatan found, one of them is komisaris | expected no overlap with sekretaris perusahaan

@@ -1,0 +1,13 @@
+dp002: indra safitri - 0 direktur, 1 komisaris, 6 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: hadi cahyadi - 0 direktur, 4 komisaris, 3 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: yuliana - 3 direktur, 0 komisaris, 0 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: lau wei kian - 0 direktur, 4 komisaris, 0 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: santoso - 3 direktur, 0 komisaris, 0 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: muktar widjaja - 0 direktur, 4 komisaris, 0 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: rudiantara - 0 direktur, 4 komisaris, 4 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: suwandi - 3 direktur, 0 komisaris, 0 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: sihol siagian - 0 direktur, 4 komisaris, 2 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: edy sugito - 0 direktur, 4 komisaris, 3 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: suryadi - 3 direktur, 0 komisaris, 1 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: supandi widi siswanto - 0 direktur, 4 komisaris, 3 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5
+dp002: edwin soeryadjaya - 0 direktur, 5 komisaris, 0 komite audit| expected direktur <= 2 and komisaris <= 3 and komite <= 5

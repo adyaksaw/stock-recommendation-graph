@@ -1,0 +1,4 @@
+sp001: ADFO - 0 sekretaris found | expected > 0
+sp001: GGST - 0 sekretaris found | expected > 0
+sp001: TPEN - 0 sekretaris found | expected > 0
+sp001: DAJK - 0 sekretaris found | expected > 0

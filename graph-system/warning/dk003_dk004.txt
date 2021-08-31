@@ -1,0 +1,4 @@
+dk003: yuliana - 3 direktur dan 0 komisaris | expected direktur <= 2 or (komisaris <= 3 or direktur == 0)
+dk003: santoso - 3 direktur dan 0 komisaris | expected direktur <= 2 or (komisaris <= 3 or direktur == 0)
+dk003: suwandi - 3 direktur dan 0 komisaris | expected direktur <= 2 or (komisaris <= 3 or direktur == 0)
+dk003: suryadi - 3 direktur dan 0 komisaris | expected direktur <= 2 or (komisaris <= 3 or direktur == 0)

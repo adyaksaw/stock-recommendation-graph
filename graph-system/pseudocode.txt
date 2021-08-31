@@ -1,0 +1,29 @@
+Node[] findDistanceK (Graph G, NodeVersion init, Version versionStart, Version versionEnd, Version versionList, int K):
+	Queue<{Node, int, int}> queue
+	Boolean[] isVisited
+	Node[] answer
+    for version in range(versionStart, versionEnd):
+	    queue.push({init, version, 0})
+
+	WHILE queue.notEmpty():
+        NodeVersion nodeVersion
+        Integer distance
+        
+        node, currentVersion, distance = queue.front()
+        queue.pop()
+
+        Boolean isValid = checkValidty(node, currentVersion)
+
+        IF not isValid OR isVisited[node][currentVersion]:
+            CONTINUE
+        isVisited[node][currentVersion] = true
+
+        IF distance == K:
+            IF node.entityType == 'perusahaanTercatat':
+                answer[node] += calculateWeight(versionList, currentVersion, versionStart, versionEnd)
+        ELSE IF distance > K:
+            CONTINUE
+
+        FOR neighbour in G.getNeighbour(node):
+            queue.push({neighbour, currentVersion, distance + 1})
+	return answer

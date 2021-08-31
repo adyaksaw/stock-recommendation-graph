@@ -1,0 +1,11 @@
+dk001: ADFO - 0 komisaris | expected komisaris >= 2
+dk001: APII - 1 komisaris | expected komisaris >= 2
+dk001: CBMF - 1 komisaris | expected komisaris >= 2
+dk001: DNET - 0 komisaris | expected komisaris >= 2
+dk001: IBFN - 1 komisaris | expected komisaris >= 2
+dk001: INSA - 0 komisaris | expected komisaris >= 2
+dk001: SOCI - 0 komisaris | expected komisaris >= 2
+dk001: STTP - 1 komisaris | expected komisaris >= 2
+dk001: TRAM - 1 komisaris | expected komisaris >= 2
+dk001: TRIL - 0 komisaris | expected komisaris >= 2
+dk001: TMPI - 1 komisaris | expected komisaris >= 2
