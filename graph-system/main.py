@@ -16,11 +16,15 @@ if __name__ == '__main__':
         #stock = "UVCR"
         #time_start = "20170101"
         #time_end = "20201231"
-        print("START FIND")
+        print("Starting process...")
         stock_result = graph.find(stock, time_start, time_end, 6)
         pp.pprint(stock_result)
-        print("START EVALUATION")
+        print("Find ", len(stock_result),
+              "potential stocks. Calculating the correlation coefficient...")
         stock_evaluation = evaluate(stock, stock_result, time_start, time_end)
-
+        total = 0
+        for x in stock_evaluation:
+            total += abs(x['correlation'])
         pp.pprint(stock_evaluation)
+        print('avg:', total/len(stock_evaluation))
         break

@@ -39,7 +39,7 @@ def extract_evaluation(stock_evaluation):
     if(len(stock_evaluation) == 0):
         return {"max": 0, "min": 0, "avg": 0, "median": 0, "count": 0}
     count = len(stock_evaluation)
-    stock_evaluation = stock_evaluation[:5]
+    # stock_evaluation = stock_evaluation[:5]
     value = np.array([abs(i['correlation']) for i in stock_evaluation])
     return {"max": np.amax(value), "min": np.amin(value), "avg": np.average(value), "median": np.median(value), "count": count}
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     stock_list = initialize_stock_list()
     ignored_stock_list = initialize_ignored_stock_list()
     stock_list = [x for x in stock_list if x not in ignored_stock_list]
-    stock_num = [i for i in range(1, 101)]
+    stock_num = [i for i in range(1, 201)]
 
     graph = Graph()
     graph.import_graph()
@@ -72,6 +72,6 @@ if __name__ == '__main__':
             ctr -= 1
             stock_result.append(data)
         df = pd.DataFrame(stock_result)
-        all_result.append(df.median())
+        all_result.append(df.mean())
     all_result = pd.DataFrame(all_result)
-    all_result.to_csv("output/output_subset_naive/overall.csv")
+    all_result.to_csv("output/output_all_naive/overall_mean_return.csv")

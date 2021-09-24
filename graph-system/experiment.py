@@ -50,7 +50,7 @@ def extract_evaluation(stock_evaluation):
 
 def write_to_file(data, company):
     df = pd.DataFrame(data)
-    df.to_csv(f"output/output_all_val/{company}.csv")
+    df.to_csv(f"output/output_all_val/stock_return/{company}.csv")
 
 
 def cut_array_from(stock_list, stock):
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     time_end = "20201231"
     max_distance = 10
     stock_list = initialize_stock_list()
-    stock_list = cut_array_from(stock_list, "PLAN")
+    # stock_list = cut_array_from(stock_list, "PLAN")
     ignored_stock_list = initialize_ignored_stock_list()
 
     for stock in tqdm(stock_list):
